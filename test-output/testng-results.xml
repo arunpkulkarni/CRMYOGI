@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-24T11:39:05Z" name="Default suite" finished-at="2022-10-24T11:41:23Z" duration-ms="138698">
+    <groups>
+    </groups>
+    <test started-at="2022-10-24T11:39:05Z" name="Default test" finished-at="2022-10-24T11:41:23Z" duration-ms="138698">
+      <class name="com.crm.qa.customermanagementtestcase.Customersafeentryrequest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:39:05Z" name="setUp" finished-at="2022-10-24T11:39:05Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:39:05Z" name="OpenBrowser" finished-at="2022-10-24T11:39:07Z" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="OpenUrl()[pri:0, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:39:07Z" name="OpenUrl" finished-at="2022-10-24T11:39:17Z" duration-ms="9526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method signature="ValidateCustomersafeentryrequest()[pri:1, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:39:17Z" name="ValidateCustomersafeentryrequest" finished-at="2022-10-24T11:41:23Z" duration-ms="126695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCustomersafeentryrequest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:41:23Z" name="getResult" finished-at="2022-10-24T11:41:23Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateCustomersafeentryrequest status=SUCCESS method=Customersafeentryrequest.ValidateCustomersafeentryrequest()[pri:1, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.customermanagementtestcase.Customersafeentryrequest@205d38da]" started-at="2022-10-24T11:41:24Z" name="tearDown" finished-at="2022-10-24T11:41:24Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.customermanagementtestcase.Customersafeentryrequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

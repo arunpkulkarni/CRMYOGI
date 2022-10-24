@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="rakuten site Automation Suite" duration-ms="51712" started-at="2022-05-12T18:44:09Z" finished-at="2022-05-12T18:45:01Z">
+    <groups>
+      <group name="All">
+        <method signature="HomePageTest.JoinRakuten()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="JoinRakuten" class="GlobalTest.HomePageTest"/>
+      </group> <!-- All -->
+      <group name="Registration">
+        <method signature="HomePageTest.JoinRakuten()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="JoinRakuten" class="GlobalTest.HomePageTest"/>
+      </group> <!-- Registration -->
+    </groups>
+    <test name="Registration_MyAccount_view" duration-ms="51712" started-at="2022-05-12T18:44:09Z" finished-at="2022-05-12T18:45:01Z">
+      <class name="GlobalTest.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="setUp" is-config="true" duration-ms="141" started-at="2022-05-12T18:44:09Z" finished-at="2022-05-12T18:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="OpenBrowser" is-config="true" duration-ms="2699" started-at="2022-05-12T18:44:09Z" finished-at="2022-05-12T18:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenUrl()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="OpenUrl" is-config="true" duration-ms="7168" started-at="2022-05-12T18:44:12Z" finished-at="2022-05-12T18:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUrl -->
+        <test-method status="PASS" signature="JoinRakuten()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="JoinRakuten" duration-ms="41726" started-at="2022-05-12T18:44:19Z" finished-at="2022-05-12T18:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinRakuten -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="getResult" is-config="true" duration-ms="3" started-at="2022-05-12T18:45:01Z" finished-at="2022-05-12T18:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JoinRakuten status=SUCCESS method=HomePageTest.JoinRakuten()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="CloseBrowser" is-config="true" duration-ms="93" started-at="2022-05-12T18:45:01Z" finished-at="2022-05-12T18:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GlobalTest.HomePageTest@1fc2b765]" name="tearDown" is-config="true" duration-ms="248" started-at="2022-05-12T18:45:01Z" finished-at="2022-05-12T18:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GlobalTest.HomePageTest -->
+    </test> <!-- Registration_MyAccount_view -->
+  </suite> <!-- rakuten site Automation Suite -->
+</testng-results>

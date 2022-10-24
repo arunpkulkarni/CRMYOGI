@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [rakuten site Automation Suite]">
+  <test thread-count="5" verbose="0" name="Registration_MyAccount_view(failed)">
+    <groups>
+      <run>
+        <include name="RegressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="GlobalTest.HomePageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="OpenBrowser"/>
+          <include name="setUp"/>
+          <include name="JoinRakuten"/>
+          <include name="tearDown"/>
+          <include name="OpenUrl"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- GlobalTest.HomePageTest -->
+    </classes>
+  </test> <!-- Registration_MyAccount_view(failed) -->
+</suite> <!-- Failed suite [rakuten site Automation Suite] -->
